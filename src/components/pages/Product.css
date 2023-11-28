@@ -1,0 +1,92 @@
+/* Product.css */
+
+.card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  
+    &:hover {
+      transform: translateY(-0.3rem);
+      box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+    }
+  
+    /* Style for product image */
+    figure {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 1rem;
+  
+      img {
+        max-width: 100%;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+  
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+  
+      .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        padding: 0.5rem 1rem;
+        font-size: 1.4rem;
+      }
+    }
+
+    /* Your existing CSS */
+
+.card-data--price {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #007bff; /* Set your desired color */
+    margin-top: 1rem; /* Adjust the top margin as needed */
+  }
+  
+
+    .a{
+        font-size: 1.8rem;
+    }
+  
+    /* Style for product title */
+    /* Your existing CSS */
+
+h3 {
+    font-size: 1.8rem; /* Adjust the font size as needed */
+    font-weight: 600; /* Adjust the font weight as needed */
+    color: #333; /* Set your desired text color */
+    margin: 0; /* Remove any default margin */
+    text-transform: capitalize; /* Capitalize the text, if needed */
+  }
+  
+  
+    /* Style for product price */
+    .card-data--price {
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: #007bff;
+    }
+  
+    /* Style for Read More button */
+    .btn{
+        margin: 1rem auto;
+        border: 0.1rem solid #007bff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    
+        &:hover {
+          background-color: #007bff;
+          color: #fff;
+        }
+      }
+  }
+  

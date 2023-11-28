@@ -1,0 +1,170 @@
+[
+    {
+        "id": "spring",
+        "name": "[NEW] Master Spring Boot 3 & Spring Framework 6 with Java",
+        "company": "20minutes",
+        "price": 6000,
+        "colors": [
+            "#ff0000",
+            "#000000",
+            "#CDD0D0"
+        ],
+        "image": "https://images.pexels.com/photos/1275229/pexels-photo-1275229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "You will learn to build a Web Application, REST API and Full Stack Application with Spring Boot and Spring Frameworks",
+        "category": "history",
+        "featured": true
+    },
+    {
+        "id": "gcp",
+        "name": "GCP Associate Cloud Engineer - Google Cloud Certification",
+        "company": "thappa",
+        "price": 5000,
+        "colors": [
+            "#000",
+            "#22D3EF"
+        ],
+        "image": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Understand how to engineer and deploy secure and robust applications on Google Cloud Platform , Understand the best practices for building secure and reliable applications on the Google Cloud Platform",
+        "category": "computer",
+        "shipping": true
+    },
+    {
+        "id": "docker",
+        "name": "Learn DevOps: Docker, Kubernetes, Terraform and Azure DevOps",
+        "company": "rohit",
+        "price": 9999,
+        "colors": [
+            "#000000",
+            "#CDD0D0"
+        ],
+        "image": "https://images.pexels.com/photos/1697214/pexels-photo-1697214.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "6 DEVOPS TOOLS - Docker, Kubernetes, Azure Devops, Jenkins, Terraform, and Ansibl LEARN DEVOPS fundamentals - CI, CD and IAAC LEARN DEVOPS from ZERO - No experience required",
+        "category": "science"
+    },
+    {
+        "id": "gcp",
+        "name": "GCP Associate Cloud Engineer - Google Cloud Certification",
+        "company": "thappa",
+        "price": 5000,
+        "colors": [
+            "#000",
+            "#22D3EF"
+        ],
+        "image": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Understand how to engineer and deploy secure and robust applications on Google Cloud Platform , Understand the best practices for building secure and reliable applications on the Google Cloud Platform",
+        "category": "computer",
+        "shipping": true
+    },
+    {
+        "id": "gcp",
+        "name": "GCP Associate Cloud Engineer - Google Cloud Certification",
+        "company": "thappa",
+        "price": 5000,
+        "colors": [
+            "#000",
+            "#22D3EF"
+        ],
+        "image": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Understand how to engineer and deploy secure and robust applications on Google Cloud Platform , Understand the best practices for building secure and reliable applications on the Google Cloud Platform",
+        "category": "computer",
+        "shipping": true
+    },
+    {
+        "id": "gcp",
+        "name": "GCP Associate Cloud Engineer - Google Cloud Certification",
+        "company": "thappa",
+        "price": 5000,
+        "colors": [
+            "#000",
+            "#22D3EF"
+        ],
+        "image": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Understand how to engineer and deploy secure and robust applications on Google Cloud Platform , Understand the best practices for building secure and reliable applications on the Google Cloud Platform",
+        "category": "computer",
+        "shipping": true
+    },
+    {
+        "id": "gcp",
+        "name": "GCP Associate Cloud Engineer - Google Cloud Certification",
+        "company": "thappa",
+        "price": 5000,
+        "colors": [
+            "#000",
+            "#22D3EF"
+        ],
+        "image": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Understand how to engineer and deploy secure and robust applications on Google Cloud Platform , Understand the best practices for building secure and reliable applications on the Google Cloud Platform",
+        "category": "computer",
+        "shipping": true
+    },
+    {
+        "id": "spring",
+        "name": "[NEW] Master Spring Boot 3 & Spring Framework 6 with Java",
+        "company": "20minutes",
+        "price": 6000,
+        "colors": [
+            "#ff0000",
+            "#000000",
+            "#CDD0D0"
+        ],
+        "image": "https://images.pexels.com/photos/1275229/pexels-photo-1275229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "You will learn to build a Web Application, REST API and Full Stack Application with Spring Boot and Spring Frameworks",
+        "category": "history",
+        "featured": true
+    },
+    {
+        "id": "gcp",
+        "name": "GCP Associate Cloud Engineer - Google Cloud Certification",
+        "company": "thappa",
+        "price": 5000,
+        "colors": [
+            "#000",
+            "#22D3EF"
+        ],
+        "image": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Understand how to engineer and deploy secure and robust applications on Google Cloud Platform , Understand the best practices for building secure and reliable applications on the Google Cloud Platform",
+        "category": "computer",
+        "shipping": true
+    },
+    {
+        "id": "docker",
+        "name": "Learn DevOps: Docker, Kubernetes, Terraform and Azure DevOps",
+        "company": "rohit",
+        "price": 9999,
+        "colors": [
+            "#000000",
+            "#CDD0D0"
+        ],
+        "image": "https://images.pexels.com/photos/1697214/pexels-photo-1697214.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "6 DEVOPS TOOLS - Docker, Kubernetes, Azure Devops, Jenkins, Terraform, and Ansibl LEARN DEVOPS fundamentals - CI, CD and IAAC LEARN DEVOPS from ZERO - No experience required",
+        "category": "science"
+    },
+    {
+        "id": "docker",
+        "name": "Learn DevOps: Docker, Kubernetes, Terraform and Azure DevOps",
+        "company": "rohit",
+        "price": 9999,
+        "colors": [
+            "#000000",
+            "#CDD0D0"
+        ],
+        "image": "https://images.pexels.com/photos/1697214/pexels-photo-1697214.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "6 DEVOPS TOOLS - Docker, Kubernetes, Azure Devops, Jenkins, Terraform, and Ansibl LEARN DEVOPS fundamentals - CI, CD and IAAC LEARN DEVOPS from ZERO - No experience required",
+        "category": "science"
+    },
+    {
+        "id": "spring",
+        "name": "[NEW] Master Spring Boot 3 & Spring Framework 6 with Java",
+        "company": "20minutes",
+        "price": 6000,
+        "colors": [
+            "#ff0000",
+            "#000000",
+            "#CDD0D0"
+        ],
+        "image": "https://images.pexels.com/photos/1275229/pexels-photo-1275229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "You will learn to build a Web Application, REST API and Full Stack Application with Spring Boot and Spring Frameworks",
+        "category": "history",
+        "featured": true
+    }
+]

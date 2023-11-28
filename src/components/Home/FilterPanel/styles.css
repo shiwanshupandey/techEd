@@ -1,0 +1,11 @@
+.label {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.input-group {
+  margin-bottom: 3rem;
+  display: inline;
+}
+.label-range {
+  margin-bottom: 4rem;
+}

@@ -1,0 +1,181 @@
+/* form {
+    box-sizing: border-box;
+    padding: 5rem;
+    border-radius: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 7px solid hsl(0, 0%, 90%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  } */
+
+
+  .containe {
+    max-width: 800px;
+    background: #fff;
+    width: 100%; /* Set width to 100% for responsiveness */
+    margin: 0 auto; /* Center align the container */
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* top-padding: 10px; */ /* There's no property called top-padding, use padding-top instead */
+    padding-top: 10px; /* Corrected padding-top property */
+}
+
+
+
+/* EditCourses.css */
+
+.scroll-button {
+  position: fixed;
+  bottom: 20px; /* Adjust this value for desired vertical position */
+  right: 20px; /* Adjust this value for desired horizontal position */
+  padding: 10px 20px;
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-button:hover {
+  background-color: #0056b3; /* Hover background color */
+}
+
+
+
+
+.random-mb-5 {
+  margin-bottom: 20px;
+}
+
+.random-pt-3 {
+  padding-top: 12px;
+}
+
+/* Main wrapper styling */
+.random-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Form wrapper styling */
+.random-form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  background: white;
+}
+
+/* Form label styling */
+.random-form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #07074d;
+  margin-bottom: 12px;
+}
+
+/* Additional form label styling */
+.random-form-label-2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Form input styling */
+.random-form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background: white;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  outline: none;
+  resize: none;
+}
+
+.random-form-input:focus {
+  border-color: #6a64f1;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Button styling */
+.random-btn {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 14px 32px;
+  border: none;
+  font-weight: 600;
+  background-color: #6a64f1;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+
+.random-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Utility classes */
+.random--mx-3 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.random-px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.w-full {
+  width: 100%;
+}
+
+/* Add this CSS to style your header */
+.wow {
+color: #333; /* Set the text color */
+background-color: #f7f7f7; /* Set the background color */
+padding: 10px; /* Add some padding for spacing */
+border-bottom: 2px solid #ddd; /* Add a bottom border for separation */
+font-family: 'Arial', sans-serif; /* Specify the font family */
+text-align: center; /* Center-align the text */
+}
+
+.add-employeed-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-employeed-button:hover {
+  background-color: #45a049;
+}
+
+
+@media (min-width: 540px) {
+  .sm\:w-half {
+    width: 50%;
+  }
+}
+
+
+  

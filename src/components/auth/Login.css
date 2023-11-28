@@ -1,0 +1,123 @@
+
+  
+  .login-container {
+    margin: 100px;
+    width: ;
+    background-color: #333;
+    padding: 120px;
+    /* display: center;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 40px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.6);
+  }
+  
+  .login-content {
+    text-align: center;
+    padding: 200px;
+  }
+  
+  .welcome-text {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 50px;
+  }
+  
+  .input-field {
+    display: block;
+    width: 400px;
+    padding: 20px;
+    margin: 10px auto;
+    border: 6px solid #555;
+    border-radius: 15px;
+    background-color: #444;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .login-button {
+    display: block;
+    width: 100%;
+    max-width: 100px;
+    padding: 10px;
+    margin: 20px auto 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0077ff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    margin-top: 50px;
+  }
+  
+  .login-button:hover {
+    background-color: #0066cc;
+    box-shadow: 15px;
+    box-shadow: 0px 0px 10 rgba(0, 0, 0, 0.3);
+  }
+
+  .radio-inputs {
+    margin: 100px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background-color: #EEE;
+    box-sizing: border-box;
+    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+    padding: 0.7rem;
+    width: ;
+    font-size: 14px;
+    margin-left:center;
+    margin-bottom:50px;
+  }
+  
+  .radio-inputs .radio {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+  
+  .radio-inputs .radio input {
+    display: none;
+  }
+  
+  .radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: .5rem 0;
+    color: rgba(51, 65, 85, 1);
+    transition: all .15s ease-in-out;
+  }
+  
+  .radio-inputs .radio input:checked + .name {
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  
+  /* .container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+    background-size: 300% 300%;
+    animation: color 45s ease-in-out infinite;
+  } */
+  
+  @keyframes color {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }

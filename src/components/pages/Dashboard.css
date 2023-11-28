@@ -1,0 +1,105 @@
+
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* If you want the text to be centered vertically */
+    text-align: center; /* To center the text horizontally */
+    margin-bottom: 20px;
+  }
+
+
+
+  /* Style for the delete button */
+.delete-button {
+    background-color: #ff5555; /* Red background color */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #fff; /* White text color */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* If you want the text to be centered vertically */
+    text-align: center; /* To center the text horizontally */
+  }
+  
+  /* Style for the delete button on hover */
+  .delete-button:hover {
+    background-color: #ff3333; /* Darker red background color on hover */
+    transform: scale(1.05); /* Slightly scale the button on hover */
+  }
+  
+/* Add these styles to your Dashboard.css file or a separate CSS file */
+
+.purchase-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.product-card {
+  flex-basis: calc(33.33% - 20px); /* Three cards per row, minus the gap */
+  border: 2px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-radius:1rem;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.purchase-details {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.product-name {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Center the purchase-cards-container horizontally and vertically */
+.purchase-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed for your layout */
+}
+
+.purchase-cards {
+  
+}
+
+/* Rest of your styles for product cards remain the same */
+
+
+
+
+  
+  
+  

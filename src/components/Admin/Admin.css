@@ -1,0 +1,64 @@
+
+
+.ls{
+  height:250px;
+  width:650px;
+  background-color:rgba(116,0,184,var(--ls-op));
+/*   border:1px solid rgba(116,0,184,var(--border-op)); */
+  border-radius:10px;
+  position:relative;
+}
+.set{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  color:white;
+  z-index:5;
+  font-family:monospace;
+}
+#lss{
+  display:grid;
+  grid-template-rows:repeat(2,1fr);
+  grid-template-columns:repeat(3,1fr);
+  max-width:760px;
+  gap:10px;
+  width:calc(100%-20px);
+  height:500px;
+}
+.ls::before , .ls > .border {
+  position:absolute;
+  content:"";
+  border-radius:inherit;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:1;
+  opacity:0;
+  transition:opacity 500ms;
+}
+.ls::before{
+    background:radial-gradient(600px circle at var(--mouse-x) var(--mouse-y),rgba(253,202,64,0.06),transparent 30%);
+  z-index:3;
+}
+.ls > .border{
+    background:radial-gradient(300px circle at var(--mouse-x) var(--mouse-y),rgba(253,202,64,0.3),transparent 30%);
+}
+
+.ls:hover:before{
+  opacity:1;
+}
+.ls > .border:hover{
+  opacity:1;
+}
+.ls > .content{
+  background-color:rgb(22 12 28);
+  height:calc(100% - 2px);
+  width:calc(100% - 2px);
+  border-radius:inherit;
+  margin:1px;
+  position:relative;
+  z-index:2;
+}
+

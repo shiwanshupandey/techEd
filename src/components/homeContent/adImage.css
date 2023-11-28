@@ -1,0 +1,121 @@
+.adImageDiv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  z-index: 1; /* Ensure that .offerDiv is in front */
+  width: 1900px; /* Set the desired width */
+  height: 500px; /* Set the desired height */
+  overflow: hidden;
+}
+
+/* Set an intrinsic aspect ratio of 67:20 for all images within the Carousel */
+.react-responsive-carousel .carousel .slider-wrapper .slider .slide img {
+  width: 1900px;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover; /* Maintain aspect ratio while fitting the fixed size */
+}
+
+
+
+.adImageDiv .offerDiv {
+  color: #3c3b37;
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  top: 90px;
+  left: 15%;
+  border-radius: 2px;
+  box-shadow: 0px 1px 4px rgb(168, 166, 166);
+  padding: 15px 20px;
+  text-align: left;
+  z-index: 2; 
+}
+
+.adImageDiv .offerDiv h2 {
+  font-size: 46px;
+  margin-bottom: 10px;
+}
+
+.adImageDiv .offerDiv p {
+  font-size: 19px;
+}
+
+.adImageDiv .searchBarDiv {
+  margin: 15px 0px;
+  height: 40px;
+  position: relative;
+}
+
+.adImageDiv .searchBar {
+  width: 90%;
+  height: 100%;
+  padding-left: 15px;
+  font-size: 16px;
+  border: 1px #807f7d solid;
+  border-radius: 5px;
+}
+
+.adImageDiv .searchIconDiv {
+  position: absolute;
+  height: 100%;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  cursor: pointer;
+  right: 20px;
+}
+
+.adImageDiv .searchIcon {
+  color: #73726c;
+}
+
+/* Set an intrinsic aspect ratio of 67:20 for all images within the Carousel */
+.react-responsive-carousel .carousel .slider-wrapper .slider .slide {
+  width: 1340px;
+  max-height: 400px;
+  position: relative;
+}
+
+.react-responsive-carousel .carousel .slider-wrapper .slider .slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio while fitting the fixed size */
+}
+
+
+/* Add this CSS to your adImage.css file or a separate CSS file */
+.search-results-popup {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 999; /* Ensure it's above other elements */
+}
+
+.search-result-item {
+  padding: 8px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+.search-result-item:hover {
+  background: #f0f0f0;
+}
+

@@ -1,0 +1,47 @@
+:root {
+  --background-light: #ffffff;
+  --text-light: #000000;
+  --background-dark: #121212;
+  --text-dark: #dadada;
+  --accent-color: #fdd835;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* toastStyles.css */
+
+/* Customize the container style */
+.Toastify {
+  font-family: Arial, sans-serif;
+}
+
+/* Customize the toast notification style */
+.Toastify__toast {
+  border-radius: 4px;
+  margin: 8px;
+  min-height: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Customize the success toast style */
+.Toastify__toast--success {
+  background-color: #4caf50;
+}
+
+/* Customize the error toast style */
+.Toastify__toast--error {
+  background-color: #f44336;
+}
